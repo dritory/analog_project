@@ -1,0 +1,15 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Sep 11 16:22:27 2020 
+Best design point: 1
+Design specs: 
+	ACMOS1:nmos:1	corner	Nominal - 
+Design parameters: 
+	vgs		0
+	vds		0
+
+Interactive.5
+Number of points completed: 11
+Number of simulation errors: 6
+Interactive.5 completed. 
+Current time: Fri Sep 11 16:24:28 2020 

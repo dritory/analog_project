@@ -1,0 +1,14 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Sep 11 16:13:49 2020 
+Best design point: 1
+Design specs: 
+	ACMOS1:nmos:1	corner	Nominal - 
+	getData("NMO:vth" ?result "dc")		Error	No
+Design parameters: 
+	vgs		0
+	vds		0
+
+Received stop signal from user. 
+Interactive.2 completed. 
+Current time: Fri Sep 11 16:14:48 2020 

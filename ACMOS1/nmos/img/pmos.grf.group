@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--StateFileType saveLoadState-->
+<topLevel>
+    <SimpleProp Name="stateFileVersion" Value="@(#)$CDS: virtuoso version 6.1.6-64b 06/16/2014 21:40 (sjfnl128) $" Type="string" />
+    <SimpleProp Name="currentContext" Value="/home/courses/analog_cmos1/2020f/ac20f14/simulation/nmos/spectre/schematic/psf" Type="stringValue" />
+    <IndexedProp Name="resultsDirMappingList">
+        <SimpleProp Name="__resDirStr_0" Value="/home/courses/analog_cmos1/2020f/ac20f14/simulation/nmos/spectre/schematic/psf" Type="stringValue" />
+    </IndexedProp>
+    <IndexedProp Name="graphFileList">
+        <SimpleProp Value="/home/courses/analog_cmos1/2020f/ac20f14/cad_tutorial/ACMOS1/nmos/img/pmos_0.grf" Type="stringValue" />
+    </IndexedProp>
+</topLevel>
