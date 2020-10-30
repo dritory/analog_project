@@ -6,11 +6,11 @@
 LockStakeVersion               1.1
 LoginName                      ac20f14
 HostName                       venus.tele.ntnu.no
-ProcessIdentifier              32608
-ProcessCreationTime_UTC        1599833236
-ProcessCreationTime_Readable   Fri Sep 11 16:07:16 2020 CEST
+ProcessIdentifier              22497
+ProcessCreationTime_UTC        1601019356
+ProcessCreationTime_Readable   Fri Sep 25 09:35:56 2020 CEST
 AppIdentifier                  /eda/tools/cadence/ic.06.16/tools.lnx86/dfII/bin/64bit/virtuoso
 OSType                         lnx86
 ReasonForPlacingEditLock       Set lock by hiiLockFile
-FilePathUsedToEditLock         /home/courses/analog_cmos1/2020f/ac20f14/cad_tutorial/logs_ac20f14/logs0/Job0.log
-TimeEditLocked                 Fri Sep 11 16:07:17 2020 CEST
+FilePathUsedToEditLock         /home/courses/analog_cmos1/2020f/ac20f14/analog_project/logs_ac20f14/logs0/Job1.log
+TimeEditLocked                 Fri Sep 25 09:35:56 2020 CEST

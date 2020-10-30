@@ -1,0 +1,1257 @@
+\# Program start time UTC 2020.09.25 07:42:51.932
+\# Local time Friday 25 September 2020, 9:42 am
+\o Program:		@(#)$CDS: virtuoso version 6.1.6-64b 06/16/2014 21:40 (sjfnl128) $
+\o Hierarchy:		/eda/tools/cadence/ic.06.16.070/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.6-64b.500.7  (64-bit addresses)
+\# Command line:	/eda/tools/cadence/ic.06.16/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso21208 -mpshost venus.tele.ntnu.no -davinciService DaVinciService_21208_1601019270 -log /home/courses/analog_cmos1/2020f/ac20f14/analog_project/logs_ac20f14/logs0/Job2.log -licenseLockFileName /home/courses/analog_cmos1/2020f/ac20f14/analog_project/.tmp_ac20f14/.venus.tele.ntnu.no_21208 -nograph -nostdin -axlChildIdFlag 2
+\# Host name (type):	venus.tele.ntnu.no (x86_64)
+\# Operating system:	Linux 2.6.32-754.33.1.el6.x86_64 #1 SMP Tue Aug 25 15:29:40 UTC 2020
+\# Linux /etc/issue:	CentOS release 6.10 (Final)
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	venus.tele.ntnu.no:80 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			RealVNC Ltd (VNC nograph server)
+\# Depth of Visual (Root):	16 (16)
+\# Number of Planes Used:	16
+\# X version:		11.0 (vendor release 3370)
+\# X resource pool:	base 0x800000, mask 0x3fffff (4194303), shift 0
+\# 			current id 0x0, current max 0x3ffffa (4194298)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        335 MB
+\# Available memory:	    152,638 MB
+\# System memory:	    161,408 MB
+\# Maximum memory size:	    161,139 MB
+\# Max mem available:	    152,703 MB
+\# Initial memory used:	         66 MB
+\#        process size:	        727 MB
+\# Qt version:		4.7.2
+\# Window Manager:	other
+\# User Name:		ac20f14
+\o Working Directory:	venus.tele.ntnu.no:/home/courses/analog_cmos1/2020f/ac20f14/analog_project
+\# Process Id:		22658
+\o 
+\o COPYRIGHT © 1992-2014  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           © 1992-2014  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading LVS.cxt 
+\o Loading layerProc.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading par.cxt 
+\o Loading socket.cxt 
+\o Loading alvs.cxt 
+\o Loading awv.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\w *WARNING* The directory: '/home/courses/analog_cmos1/2020f/ac20f14/cad_tutorial/Assigm3' does not exist
+\w 	but was defined in libFile '/home/courses/analog_cmos1/2020f/ac20f14/analog_project/cds.lib' for Lib 'Assigm3'.
+\o *Info*    Client has finished starting ... 
+\o 
+\p > 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = ACMOS1
+\o 	Cell         = assigm5_tb
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = ACMOS1:assigm5_tb:1_tmpstate.143302914_Interactive.0
+\o 	Results DB   = /home/courses/analog_cmos1/2020f/ac20f14/cad_tutorial/ACMOS1/assigm5_tb/adexl/results/data/Interactive.0.rdb
+\o 	Results Dir  = /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.0/1/ACMOS1:assigm5_tb:1
+\o 	Results Loc  = /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data
+\o 	Project Dir  = /home/courses/analog_cmos1/2020f/ac20f14/simulation
+\o 	Setup DB loc = /home/courses/analog_cmos1/2020f/ac20f14/cad_tutorial/ACMOS1/assigm5_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading simui.cxt 
+\o Loading viva.cxt 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\# Memory report: using         232 MB, process size 1,023 MB at UTC 2020.09.25 07:42:54.022
+\w *WARNING* The directory: '/home/courses/analog_cmos1/2020f/ac20f14/cad_tutorial/Assigm3' does not exist
+\w 	but was defined in libFile '/home/courses/analog_cmos1/2020f/ac20f14/analog_project/cds.lib' for Lib 'Assigm3'.
+\o Loading gpdk090/libInit.il ...
+\o 	Loading gpdk090/loadCxt.ile ... done!
+\o 	Loading context 'gpdk090' from library 'gpdk090' ... done!
+\o 	Loading context 'pdkUtils' from library 'gpdk090' ... done!
+\o 	Loading gpdk090/display.drf ... done!
+\e 	Loading gpdk090/gpdk090_customFilter.il ... *Error* axlRegisterCustomDeviceFilter: too few arguments (2 expected, 0 given) - nil
+\o failed!
+\o 	Loading gpdk090/.simrc ... done!
+\o 	Loading gpdk090/libInitCustomExit.il ... 	Loading Environment Settings ...
+\w *WARNING* envSetVal: Can't set the value of variable 'extractVerifySubstrate',
+\w 	in tool[.partition] 'layout' - it has not been registered.
+\o 	Loading Model Management File ...
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading UltraSim.cxt 
+\o Loading msgHandler.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 	Loading gpdk090/gpdk090_PDKRegistrations.il ... done!
+\o 
+\o   *************************************************************           
+\o   *              Cadence Design Systems, Inc.                 *           
+\o   *                                                           *           
+\o   *                    Generic 90nm PDK                       *           
+\o   *                        (gpdk090)                          *           
+\o   *                                                           *           
+\o   *************************************************************           
+\o 	
+\o 
+\o 	Version : 4.6
+\o 
+\o 	Build date: 10-FEB-2011
+\o 
+\o done!
+\o Failed to load gpdk090/libInit.il successfully!WARNING (ADE-5033): Cannot find the environment variable 'sweeptype' for tool 'ams.hbsp'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5034): Unable to access the default environment variables in the simulator's
+\o         global .cdsenv file ('<your_install_dir>/tools/dfII/etc/tools/ams/.cdsenv')
+\o         because the file is missing or out-of-date. Till this problem exists, internal
+\o         default values will be used for these environment variables during this session.
+\o WARNING (ADE-5033): Cannot find the environment variable 'rangeType' for tool 'ams.hbsp'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'noisetypeUI' for tool 'ams.hbnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'MultiEna' for tool 'ams.hbnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'rangeType' for tool 'ams.hbnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sbsm' for tool 'ams.hbnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'inType' for tool 'ams.hbnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'refsbSelect' for tool 'ams.hbnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'outType' for tool 'ams.hbnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'donoise' for tool 'ams.hbnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'special' for tool 'ams.hbac'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'rangeType' for tool 'ams.hbac'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sbsm' for tool 'ams.hbac'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'tones' for tool 'ams.hb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'oscana' for tool 'ams.hb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'HBTonesNum' for tool 'ams.hb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'harmonicsCyc' for tool 'ams.hb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'harmonics' for tool 'ams.hb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sigpartB' for tool 'ams.hb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'hbhomotopy' for tool 'ams.hb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweepB' for tool 'ams.hb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweep' for tool 'ams.hb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweep2' for tool 'ams.hb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweep3' for tool 'ams.hb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'loadpullB' for tool 'ams.hb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'lsspB' for tool 'ams.hb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'compressionB' for tool 'ams.hb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweeptype' for tool 'ams.qpsp'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'rangeType' for tool 'ams.qpsp'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'rangeType' for tool 'ams.qpxf'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sbsm' for tool 'ams.qpxf'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'outType' for tool 'ams.qpxf'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'MultiEna' for tool 'ams.qpnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'rangeType' for tool 'ams.qpnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sbsm' for tool 'ams.qpnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'inType' for tool 'ams.qpnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'refsbSelect' for tool 'ams.qpnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'outType' for tool 'ams.qpnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'rangeType' for tool 'ams.qpac'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sbsm' for tool 'ams.qpac'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweeptype' for tool 'ams.psp'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'rangeType' for tool 'ams.psp'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'special' for tool 'ams.pxf'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'outType' for tool 'ams.pxf'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'rangeType' for tool 'ams.pxf'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'harmonics' for tool 'ams.pxf'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'noisetypeUI' for tool 'ams.pnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'MultiEna' for tool 'ams.pnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'rangeType' for tool 'ams.pnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'harmonics' for tool 'ams.pnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'pnoisemethod' for tool 'ams.pnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'inType' for tool 'ams.pnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'refsbSelect' for tool 'ams.pnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'outType' for tool 'ams.pnoise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'rangeType' for tool 'ams.pstb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'special' for tool 'ams.pac'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'rangeType' for tool 'ams.pac'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'harmonics' for tool 'ams.pac'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'engine' for tool 'ams.pss'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'harmonics' for tool 'ams.pss'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'hbhomotopy' for tool 'ams.pss'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'oscana' for tool 'ams.pss'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweepB' for tool 'ams.pss'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweep' for tool 'ams.pss'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweep2' for tool 'ams.pss'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweep3' for tool 'ams.pss'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'loadpullB' for tool 'ams.pss'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweep' for tool 'ams.sp'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'rangeType' for tool 'ams.sp'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'donoise' for tool 'ams.sp'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweep' for tool 'ams.xf'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'rangeType' for tool 'ams.xf'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'outType' for tool 'ams.xf'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweep' for tool 'ams.noise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'rangeType' for tool 'ams.noise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'outType' for tool 'ams.noise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'inType' for tool 'ams.noise'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweep' for tool 'ams.dc'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweep' for tool 'ams.stb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'rangeType' for tool 'ams.stb'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'outType' for tool 'ams.dcmatch'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweep' for tool 'ams.dcmatch'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'outType' for tool 'ams.pz'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'inType' for tool 'ams.pz'.
+\o         Its internal default value will be used.
+\o WARNING (ADE-5033): Cannot find the environment variable 'sweep' for tool 'ams.pz'.
+\o         Its internal default value will be used.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 1) on testbench [
+\o           ACMOS1:assigm5_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var ibias = "17u"
+\o Setting var l1 = "0.922u"
+\o Setting var l2 = "1.08u"
+\o Setting temp(T) = 27
+\o Setting var vamp = "10m"
+\o Setting var vbias = "664m"
+\o Setting var vdd = "1"
+\o Setting var w1 = "7.35u"
+\o Setting var w2 = "3.94u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.0/1/ACMOS1:assigm5_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.0/1/ACMOS1:assigm5_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 1)
+\o 
+\o generate netlist...
+\o Loading seCore.cxt 
+\o Begin Incremental Netlisting Sep 25 09:43:01 2020
+\# Available memory:        152,444 MB at UTC 2020.09.25 07:43:02.101
+\# Memory report: Maximum memory size now 152,715 MB at UTC 2020.09.25 07:43:02.101
+\o End netlisting Sep 25 09:43:02 2020
+\o Loading monte.cxt 
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:    7
+\o 
+\o 	Elapsed time:          3.0s (2.33/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ ACMOS1:assigm5_tb:1 ] for
+\o           Point ID (0 1).
+\o 
+\o Delete psf data in /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.0/1/ACMOS1:assigm5_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o Loading paraplot.cxt 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\e *Error* ("eval" 0 t nil ("*Error* eval: not a function" mag((deriv(v("/vout" ?result "ac")) / mag(v("/vin" ?result "ac"))))))
+\e 
+\e 
+\o 
+\o *Error*   Evaluating expression ((20 * log10((mag((deriv(v("/vout" ?result "ac")) / mag(v("/vin" ?result "ac")))))))). 
+\o 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 1) on testbench [
+\o           ACMOS1:assigm5_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables15".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = ACMOS1
+\o 	Cell         = assigm5_tb
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = ACMOS1:assigm5_tb:1_tmpstate.143302914_Interactive.1
+\o 	Results DB   = /home/courses/analog_cmos1/2020f/ac20f14/cad_tutorial/ACMOS1/assigm5_tb/adexl/results/data/Interactive.1.rdb
+\o 	Results Dir  = /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.1/1/ACMOS1:assigm5_tb:1
+\o 	Results Loc  = /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data
+\o 	Project Dir  = /home/courses/analog_cmos1/2020f/ac20f14/simulation
+\o 	Setup DB loc = /home/courses/analog_cmos1/2020f/ac20f14/cad_tutorial/ACMOS1/assigm5_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 1) on testbench [
+\o           ACMOS1:assigm5_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var ibias = "17u"
+\o Setting var l1 = "0.922u"
+\o Setting var l2 = "1.08u"
+\o Setting temp(T) = 27
+\o Setting var vamp = "10m"
+\o Setting var vbias = "664m"
+\o Setting var vdd = "1"
+\o Setting var w1 = "7.35u"
+\o Setting var w2 = "3.94u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.1/1/ACMOS1:assigm5_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.1/1/ACMOS1:assigm5_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 1)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 25 09:45:51 2020
+\o End netlisting Sep 25 09:45:53 2020
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:    7
+\o 
+\o 	Elapsed time:          3.0s (2.33/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ ACMOS1:assigm5_tb:1 ] for
+\o           Point ID (1 1).
+\o 
+\o Delete psf data in /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.1/1/ACMOS1:assigm5_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\e *Error* ("eval" 0 t nil ("*Error* eval: not a function" mag((deriv(v("/vout" ?result "ac")) / mag(v("/vin" ?result "ac"))))))
+\e 
+\e 
+\o 
+\o *Error*   Evaluating expression ((20 * log10((mag((deriv(v("/vout" ?result "ac")) / mag(v("/vin" ?result "ac")))))))). 
+\o 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 1) on testbench [
+\o           ACMOS1:assigm5_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 2) on testbench [
+\o           ACMOS1:assigm5_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vamp = "0"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.1/2/ACMOS1:assigm5_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.1/2/ACMOS1:assigm5_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 2)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 25 09:46:13 2020
+\o End netlisting Sep 25 09:46:13 2020
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ ACMOS1:assigm5_tb:1 ] for
+\o           Point ID (1 2).
+\o 
+\o Delete psf data in /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.1/2/ACMOS1:assigm5_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\e *Error* ("eval" 0 t nil ("*Error* eval: not a function" mag((deriv(v("/vout" ?result "ac")) / mag(v("/vin" ?result "ac"))))))
+\e 
+\e 
+\o 
+\o *Error*   Evaluating expression ((20 * log10((mag((deriv(v("/vout" ?result "ac")) / mag(v("/vin" ?result "ac")))))))). 
+\o 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 2) on testbench [
+\o           ACMOS1:assigm5_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 3) on testbench [
+\o           ACMOS1:assigm5_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vamp = "2.5m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.1/3/ACMOS1:assigm5_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.1/3/ACMOS1:assigm5_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 3)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 25 09:46:27 2020
+\o End netlisting Sep 25 09:46:27 2020
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ ACMOS1:assigm5_tb:1 ] for
+\o           Point ID (1 3).
+\o 
+\o Delete psf data in /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.1/3/ACMOS1:assigm5_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\e *Error* ("eval" 0 t nil ("*Error* eval: not a function" mag((deriv(v("/vout" ?result "ac")) / mag(v("/vin" ?result "ac"))))))
+\e 
+\e 
+\o 
+\o *Error*   Evaluating expression ((20 * log10((mag((deriv(v("/vout" ?result "ac")) / mag(v("/vin" ?result "ac")))))))). 
+\o 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 3) on testbench [
+\o           ACMOS1:assigm5_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 4) on testbench [
+\o           ACMOS1:assigm5_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vamp = "5m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.1/4/ACMOS1:assigm5_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.1/4/ACMOS1:assigm5_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 4)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 25 09:46:36 2020
+\o End netlisting Sep 25 09:46:36 2020
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ ACMOS1:assigm5_tb:1 ] for
+\o           Point ID (1 4).
+\o 
+\o Delete psf data in /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.1/4/ACMOS1:assigm5_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\e *Error* ("eval" 0 t nil ("*Error* eval: not a function" mag((deriv(v("/vout" ?result "ac")) / mag(v("/vin" ?result "ac"))))))
+\e 
+\e 
+\o 
+\o *Error*   Evaluating expression ((20 * log10((mag((deriv(v("/vout" ?result "ac")) / mag(v("/vin" ?result "ac")))))))). 
+\o 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 4) on testbench [
+\o           ACMOS1:assigm5_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 5) on testbench [
+\o           ACMOS1:assigm5_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vamp = "7.5m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.1/5/ACMOS1:assigm5_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.1/5/ACMOS1:assigm5_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 5)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 25 09:46:45 2020
+\o End netlisting Sep 25 09:46:45 2020
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ ACMOS1:assigm5_tb:1 ] for
+\o           Point ID (1 5).
+\o 
+\o Delete psf data in /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.1/5/ACMOS1:assigm5_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\e *Error* ("eval" 0 t nil ("*Error* eval: not a function" mag((deriv(v("/vout" ?result "ac")) / mag(v("/vin" ?result "ac"))))))
+\e 
+\e 
+\o 
+\o *Error*   Evaluating expression ((20 * log10((mag((deriv(v("/vout" ?result "ac")) / mag(v("/vin" ?result "ac")))))))). 
+\o 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 5) on testbench [
+\o           ACMOS1:assigm5_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 6) on testbench [
+\o           ACMOS1:assigm5_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vamp = "10m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.1/6/ACMOS1:assigm5_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.1/6/ACMOS1:assigm5_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 6)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 25 09:46:54 2020
+\o End netlisting Sep 25 09:46:55 2020
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ ACMOS1:assigm5_tb:1 ] for
+\o           Point ID (1 6).
+\o 
+\o Delete psf data in /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.1/6/ACMOS1:assigm5_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\e *Error* ("eval" 0 t nil ("*Error* eval: not a function" mag((deriv(v("/vout" ?result "ac")) / mag(v("/vin" ?result "ac"))))))
+\e 
+\e 
+\o 
+\o *Error*   Evaluating expression ((20 * log10((mag((deriv(v("/vout" ?result "ac")) / mag(v("/vin" ?result "ac")))))))). 
+\o 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 6) on testbench [
+\o           ACMOS1:assigm5_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables15".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = ACMOS1
+\o 	Cell         = assigm5_tb
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = ACMOS1:assigm5_tb:1_tmpstate.143302914_Interactive.2
+\o 	Results DB   = /home/courses/analog_cmos1/2020f/ac20f14/cad_tutorial/ACMOS1/assigm5_tb/adexl/results/data/Interactive.2.rdb
+\o 	Results Dir  = /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.2/1/ACMOS1:assigm5_tb:1
+\o 	Results Loc  = /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data
+\o 	Project Dir  = /home/courses/analog_cmos1/2020f/ac20f14/simulation
+\o 	Setup DB loc = /home/courses/analog_cmos1/2020f/ac20f14/cad_tutorial/ACMOS1/assigm5_tb/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (2 1) on testbench [
+\o           ACMOS1:assigm5_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var ibias = "17u"
+\o Setting var l1 = "0.922u"
+\o Setting var l2 = "1.08u"
+\o Setting temp(T) = 27
+\o Setting var vamp = "10m"
+\o Setting var vbias = "664m"
+\o Setting var vdd = "1"
+\o Setting var w1 = "7.35u"
+\o Setting var w2 = "3.94u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.2/1/ACMOS1:assigm5_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.2/1/ACMOS1:assigm5_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (2 1)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 25 09:48:07 2020
+\o End netlisting Sep 25 09:48:09 2020
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:    7
+\o 
+\o 	Elapsed time:          2.0s (3.50/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ ACMOS1:assigm5_tb:1 ] for
+\o           Point ID (2 1).
+\o 
+\o Delete psf data in /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.2/1/ACMOS1:assigm5_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\e *Error* ("eval" 0 t nil ("*Error* eval: not a function" mag((deriv(v("/vout" ?result "ac")) / mag(v("/vin" ?result "ac"))))))
+\e 
+\e 
+\o 
+\o *Error*   Evaluating expression ((20 * log10((mag((deriv(v("/vout" ?result "ac")) / mag(v("/vin" ?result "ac")))))))). 
+\o 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 1) on testbench [
+\o           ACMOS1:assigm5_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (2 2) on testbench [
+\o           ACMOS1:assigm5_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vamp = "0"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.2/2/ACMOS1:assigm5_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.2/2/ACMOS1:assigm5_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (2 2)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 25 09:48:28 2020
+\o End netlisting Sep 25 09:48:29 2020
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ ACMOS1:assigm5_tb:1 ] for
+\o           Point ID (2 2).
+\o 
+\o Delete psf data in /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.2/2/ACMOS1:assigm5_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\e *Error* ("eval" 0 t nil ("*Error* eval: not a function" mag((deriv(v("/vout" ?result "ac")) / mag(v("/vin" ?result "ac"))))))
+\e 
+\e 
+\o 
+\o *Error*   Evaluating expression ((20 * log10((mag((deriv(v("/vout" ?result "ac")) / mag(v("/vin" ?result "ac")))))))). 
+\o 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 2) on testbench [
+\o           ACMOS1:assigm5_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (2 3) on testbench [
+\o           ACMOS1:assigm5_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vamp = "12.5m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.2/3/ACMOS1:assigm5_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.2/3/ACMOS1:assigm5_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (2 3)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 25 09:48:37 2020
+\o End netlisting Sep 25 09:48:38 2020
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ ACMOS1:assigm5_tb:1 ] for
+\o           Point ID (2 3).
+\o 
+\o Delete psf data in /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.2/3/ACMOS1:assigm5_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\e *Error* ("eval" 0 t nil ("*Error* eval: not a function" mag((deriv(v("/vout" ?result "ac")) / mag(v("/vin" ?result "ac"))))))
+\e 
+\e 
+\o 
+\o *Error*   Evaluating expression ((20 * log10((mag((deriv(v("/vout" ?result "ac")) / mag(v("/vin" ?result "ac")))))))). 
+\o 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 3) on testbench [
+\o           ACMOS1:assigm5_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (2 4) on testbench [
+\o           ACMOS1:assigm5_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vamp = "25m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.2/4/ACMOS1:assigm5_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.2/4/ACMOS1:assigm5_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (2 4)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 25 09:48:46 2020
+\o End netlisting Sep 25 09:48:47 2020
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ ACMOS1:assigm5_tb:1 ] for
+\o           Point ID (2 4).
+\o 
+\o Delete psf data in /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.2/4/ACMOS1:assigm5_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\e *Error* ("eval" 0 t nil ("*Error* eval: not a function" mag((deriv(v("/vout" ?result "ac")) / mag(v("/vin" ?result "ac"))))))
+\e 
+\e 
+\o 
+\o *Error*   Evaluating expression ((20 * log10((mag((deriv(v("/vout" ?result "ac")) / mag(v("/vin" ?result "ac")))))))). 
+\o 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 4) on testbench [
+\o           ACMOS1:assigm5_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (2 5) on testbench [
+\o           ACMOS1:assigm5_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vamp = "37.5m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.2/5/ACMOS1:assigm5_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.2/5/ACMOS1:assigm5_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (2 5)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 25 09:48:56 2020
+\o End netlisting Sep 25 09:48:56 2020
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ ACMOS1:assigm5_tb:1 ] for
+\o           Point ID (2 5).
+\o 
+\o Delete psf data in /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.2/5/ACMOS1:assigm5_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\e *Error* ("eval" 0 t nil ("*Error* eval: not a function" mag((deriv(v("/vout" ?result "ac")) / mag(v("/vin" ?result "ac"))))))
+\e 
+\e 
+\o 
+\o *Error*   Evaluating expression ((20 * log10((mag((deriv(v("/vout" ?result "ac")) / mag(v("/vin" ?result "ac")))))))). 
+\o 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 5) on testbench [
+\o           ACMOS1:assigm5_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (2 6) on testbench [
+\o           ACMOS1:assigm5_tb:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vamp = "50m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.2/6/ACMOS1:assigm5_tb:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.2/6/ACMOS1:assigm5_tb:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (2 6)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Sep 25 09:49:05 2020
+\o End netlisting Sep 25 09:49:06 2020
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   1.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ ACMOS1:assigm5_tb:1 ] for
+\o           Point ID (2 6).
+\o 
+\o Delete psf data in /home/courses/analog_cmos1/2020f/ac20f14/simulation/ACMOS1/assigm5_tb/adexl/results/data/Interactive.2/6/ACMOS1:assigm5_tb:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\e *Error* ("eval" 0 t nil ("*Error* eval: not a function" mag((deriv(v("/vout" ?result "ac")) / mag(v("/vin" ?result "ac"))))))
+\e 
+\e 
+\o 
+\o *Error*   Evaluating expression ((20 * log10((mag((deriv(v("/vout" ?result "ac")) / mag(v("/vin" ?result "ac")))))))). 
+\o 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (2 6) on testbench [
+\o           ACMOS1:assigm5_tb:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Job 2 timed out after no activity in 300 seconds.
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables15".
+\o To save future changes, copy variables to cellView before exiting.
+\o Loading lce.cxt 
+\# Memory report: on exit            274 MB, process size 1,065 MB at UTC 2020.09.25 07:54:10.403
+\# Memory report: peak usage         278 MB, process size 1,068 MB

@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<setupdb version="5">data
+	<active>Active Setup
+		<corners>
+			<corner enabled="1">_default</corner>
+		</corners>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<overwritehistory>0</overwritehistory>
+		<tests>
+			<test>project:test_OTA_tb:1
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>test_OTA_tb</value>
+					</option>
+					<option>lib
+						<value>project</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>state
+						<value>project:test_OTA_tb:1_active</value>
+					</option>
+				</tooloptions>
+				<origoptions>
+					<option>cell
+						<value>test_OTA_tb</value>
+					</option>
+					<option>lib
+						<value>project</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>state
+						<value>tmpstate.476324676</value>
+					</option>
+				</origoptions>
+			</test>
+		</tests>
+		<vars>
+			<var>vdd
+				<value>1</value>
+				<dependentTests>
+					<dependentTest omitted="0">project:test_OTA_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>W2
+				<value>1.2u</value>
+				<dependentTests>
+					<dependentTest omitted="0">project:test_OTA_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Wp2
+				<value>2u</value>
+				<dependentTests>
+					<dependentTest omitted="0">project:test_OTA_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Cl
+				<value>1f</value>
+				<dependentTests>
+					<dependentTest omitted="0">project:test_OTA_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Lp
+				<value>118n</value>
+				<dependentTests>
+					<dependentTest omitted="0">project:test_OTA_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Lp2
+				<value>181n</value>
+				<dependentTests>
+					<dependentTest omitted="0">project:test_OTA_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>ibias
+				<value>10u</value>
+				<dependentTests>
+					<dependentTest omitted="0">project:test_OTA_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>L
+				<value>160n</value>
+				<dependentTests>
+					<dependentTest omitted="0">project:test_OTA_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>L2
+				<value>230n</value>
+				<dependentTests>
+					<dependentTest omitted="0">project:test_OTA_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>vcom
+				<value>830m</value>
+				<dependentTests>
+					<dependentTest omitted="0">project:test_OTA_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>vb1
+				<value>370m</value>
+				<dependentTests>
+					<dependentTest omitted="0">project:test_OTA_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>vamp
+				<value></value>
+				<dependentTests>
+					<dependentTest omitted="0">project:test_OTA_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>W
+				<value>420n</value>
+				<dependentTests>
+					<dependentTest omitted="0">project:test_OTA_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>vb2
+				<value>590m</value>
+				<dependentTests>
+					<dependentTest omitted="0">project:test_OTA_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Wp
+				<value>670n</value>
+				<dependentTests>
+					<dependentTest omitted="0">project:test_OTA_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Wpi
+				<value>1 * Wp</value>
+				<dependentTests>
+					<dependentTest omitted="0">project:test_OTA_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Wc
+				<value>10*Wp</value>
+				<dependentTests>
+					<dependentTest omitted="0">project:test_OTA_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+		</vars>
+	</active>
+	<history>History</history>
+</setupdb>

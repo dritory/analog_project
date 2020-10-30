@@ -1,0 +1,43 @@
+\o Program:		@(#)$CDS: libManager version 6.1.6 - CAT33 04/29/2014 15:28 (sjfnl813) $
+\o Sub version:		sub-version  s009 
+\o Arguments:		-mpssession virtuoso9878 -mpshost venus.tele.ntnu.no 
+\o Working Directory:	venus.tele.ntnu.no:/home/courses/analog_cmos1/2020f/ac20f14/analog_project
+\o 64-bit offsets
+\o Qt version: 		4.7.2
+\o Log file is "/home/courses/analog_cmos1/2020f/ac20f14/analog_project/libManager.log".
+\o Opening libManager window.
+\a nrSetCurrentWindow(cdsLibManager)
+\o changeWorkingDir("/home/courses/analog_cmos1/2020f/ac20f14/analog_project") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o MPS service: map window
+\a nrResizeWindow(cdsLibManager list(200 182 758 536))
+\o Library Manager customization server connected.
+\w Warning: The directory: '/home/courses/analog_cmos1/2020f/ac20f14/cad_tutorial/Assigm3' does not exist
+\w 	but was defined in libFile '/home/courses/analog_cmos1/2020f/ac20f14/analog_project/cds.lib' for Lib 'Assigm3'.
+\a cdsLibManager->libListBox->value = "project"
+\a cdsLibManager->libLineEdit->value = "project"
+\a cdsLibManager->cellListBox->value = "test_OTA"
+\a lmgrLogShowPopup("mainListPopup1" 43 5 2 "test_OTA")
+\a cdsLibManager->cellLineEdit->value = "test_OTA"
+\a nrResizeWindow(cdsLibManager list(279 398 758 536))
+\a cdsLibManager->viewLineEdit->value = "extracted"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(315 293 758 536))
+\a nrResizeWindow(cdsLibManager list(819 305 758 536))
+\a cdsLibManager->viewLineEdit->value = "extracted"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\w Warning: The directory: '/home/courses/analog_cmos1/2020f/ac20f14/cad_tutorial/Assigm3' does not exist
+\w 	but was defined in libFile '/home/courses/analog_cmos1/2020f/ac20f14/analog_project/cds.lib' for Lib 'Assigm3'.
+\a cdsLibManager->libListBox->value = "project"
+\a cdsLibManager->libLineEdit->value = "project"
+\a cdsLibManager->cellListBox->value = "test_OTA"
+\a cdsLibManager->cellLineEdit->value = "test_OTA"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewLineEdit->value = ""
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\o libManager is exiting.
+\a exit(0)

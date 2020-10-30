@@ -5,3 +5,5 @@ DEFINE aExamples $CDSHOME/tools/dfII/samples/artist/aExamples
 
 DEFINE ACMOS1 /home/courses/analog_cmos1/2020f/ac20f14/cad_tutorial/ACMOS1
 DEFINE Assigm3 /home/courses/analog_cmos1/2020f/ac20f14/cad_tutorial/Assigm3
+DEFINE assigmn5 /home/courses/analog_cmos1/2020f/ac20f14/analog_project/ACMOS1/assigmn5
+DEFINE project /home/courses/analog_cmos1/2020f/ac20f14/analog_project/project

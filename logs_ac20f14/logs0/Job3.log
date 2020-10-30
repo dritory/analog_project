@@ -1,9 +1,9 @@
-\# Program start time UTC 2020.10.13 12:33:04.839
-\# Local time Tuesday 13 October 2020, 2:33 pm
+\# Program start time UTC 2020.09.25 08:37:43.593
+\# Local time Friday 25 September 2020, 10:37 am
 \o Program:		@(#)$CDS: virtuoso version 6.1.6-64b 06/16/2014 21:40 (sjfnl128) $
 \o Hierarchy:		/eda/tools/cadence/ic.06.16.070/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC6.1.6-64b.500.7  (64-bit addresses)
-\# Command line:	/eda/tools/cadence/ic.06.16/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso17158 -mpshost venus.tele.ntnu.no -davinciService DaVinciService_17158_1602592379 -log /home/courses/analog_cmos1/2020f/ac20f14/analog_project/logs_ac20f14/logs0/Job0.log -licenseLockFileName /home/courses/analog_cmos1/2020f/ac20f14/analog_project/.tmp_ac20f14/.venus.tele.ntnu.no_17158 -nograph -nostdin -axlChildIdFlag 0
+\# Command line:	/eda/tools/cadence/ic.06.16/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso21208 -mpshost venus.tele.ntnu.no -davinciService DaVinciService_21208_1601019270 -log /home/courses/analog_cmos1/2020f/ac20f14/analog_project/logs_ac20f14/logs0/Job3.log -licenseLockFileName /home/courses/analog_cmos1/2020f/ac20f14/analog_project/.tmp_ac20f14/.venus.tele.ntnu.no_21208 -nograph -nostdin -axlChildIdFlag 3
 \# Host name (type):	venus.tele.ntnu.no (x86_64)
 \# Operating system:	Linux 2.6.32-754.33.1.el6.x86_64 #1 SMP Tue Aug 25 15:29:40 UTC 2020
 \# Linux /etc/issue:	CentOS release 6.10 (Final)
@@ -18,18 +18,18 @@
 \# 			current id 0x0, current max 0x3ffffa (4194298)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        335 MB
-\# Available memory:	    151,338 MB
+\# Initial sbrk value:	        321 MB
+\# Available memory:	    152,583 MB
 \# System memory:	    161,408 MB
-\# Maximum memory size:	    161,139 MB
-\# Max mem available:	    151,404 MB
+\# Maximum memory size:	    161,153 MB
+\# Max mem available:	    152,649 MB
 \# Initial memory used:	         66 MB
 \#        process size:	        727 MB
 \# Qt version:		4.7.2
 \# Window Manager:	other
 \# User Name:		ac20f14
 \o Working Directory:	venus.tele.ntnu.no:/home/courses/analog_cmos1/2020f/ac20f14/analog_project
-\# Process Id:		19113
+\# Process Id:		25522
 \o 
 \o COPYRIGHT © 1992-2014  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           © 1992-2014  UNIX SYSTEMS Laboratories INC.,
@@ -65,15 +65,15 @@
 \o Loading adexl.cxt 
 \o *Info*    Exporting services from client ... 
 \o 
-\# Memory report: using         169 MB, process size 960 MB at UTC 2020.10.13 12:33:13.118
 \w *WARNING* The directory: '/home/courses/analog_cmos1/2020f/ac20f14/cad_tutorial/Assigm3' does not exist
 \w 	but was defined in libFile '/home/courses/analog_cmos1/2020f/ac20f14/analog_project/cds.lib' for Lib 'Assigm3'.
 \o *Info*    Client has finished starting ... 
 \o 
 \p > 
-\# Available memory:        151,123 MB at UTC 2020.10.13 12:33:21.529
-\# Memory report: Maximum memory size now 151,293 MB at UTC 2020.10.13 12:33:21.529
-\o Job 0 timed out after no activity in 300 seconds.
+\# Available memory:        152,485 MB at UTC 2020.09.25 08:37:57.543
+\# Memory report: Maximum memory size now 152,655 MB at UTC 2020.09.25 08:37:57.543
+\# Memory report: using         170 MB, process size 961 MB at UTC 2020.09.25 08:37:57.543
+\o Job 3 timed out after no activity in 300 seconds.
 \o Loading viva.cxt 
 \o Loading lce.cxt 
 \o 

@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      ac20f14
+HostName                       venus.tele.ntnu.no
+ProcessIdentifier              8686
+ProcessCreationTime_UTC        1602333077
+ProcessCreationTime_Readable   Sat Oct 10 14:31:17 2020 CEST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/courses/analog_cmos1/2020f/ac20f14/analog_project/project/test_out/symbol/symbol.oa.cdslck
+TimeEditLocked                 Sat Oct 10 14:41:47 2020 CEST

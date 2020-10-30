@@ -1,0 +1,17 @@
+simulator lang=spectre
+save NM0:all
+save PM0:all
+save NM1:all
+save PM1:all
+save NM2:all
+save PM2:all
+save NM3:all
+save PM3:all
+save NM4:all
+save PM4:all
+save NM5:all
+save PM5:all
+save NM6:all
+save PM6:all
+save NM7:all
+save PM7:all
